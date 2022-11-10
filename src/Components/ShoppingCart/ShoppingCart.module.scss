@@ -1,0 +1,22 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.heading {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.total-cart {
+  text-align: right;
+  font-size: 1rem;
+
+  h3 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    font-size: 1.25rem;
+  }
+}

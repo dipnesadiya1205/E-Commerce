@@ -1,0 +1,26 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.container {
+  min-height: 60vh;
+}
+
+.heading {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.categories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0.75rem;
+
+  div {
+    flex: 33%;
+    margin: 0.75rem;
+  }
+}

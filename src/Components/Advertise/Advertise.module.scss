@@ -1,0 +1,45 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.background-div {
+    background-size: cover !important;
+    height: 100vh;
+
+    img {
+        position: absolute;
+        z-index: -1;
+        top: 70px;
+        left: 0px;
+        opacity: 0.5;
+        max-height: 100vh;
+    }
+
+    .heading-div {
+        width: 50%;
+        padding-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        a {
+            text-decoration: none;
+            font: 400 2.5rem 'Josefin Sans',
+                sans-serif;
+            cursor: pointer;
+            background-color: $secondary;
+            color: $blueColor;
+            border: 1px solid black;
+            padding: 0.5rem;
+        }
+
+        p {
+            position: relative;
+            top: 3.5rem;
+            padding: 0.5rem;
+            background-color: $grayColor3;
+            color: $secondary;
+            border-radius: 0.25rem;
+            font: normal 1.75rem 'Josefin Sans',
+                sans-serif
+        }
+    }
+}

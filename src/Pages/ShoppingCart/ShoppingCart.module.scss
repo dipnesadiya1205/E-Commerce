@@ -1,0 +1,11 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.shopping-cart-page {
+  min-height: 60vh;
+  font-family: 'Josefin Sans',
+    sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}

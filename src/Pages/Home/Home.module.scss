@@ -1,0 +1,14 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.list {
+    margin: 2rem auto;
+    width: 60%;
+}
+
+footer {
+    background-color: $primary;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}

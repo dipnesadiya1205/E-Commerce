@@ -1,0 +1,27 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.top-category {
+    margin-top: 1.5rem;
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.5rem;
+        font: 700 1.5rem 'Josefin Sans',
+            sans-serif;
+    }
+
+    .cards {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: flex-end;
+        align-items: center;
+
+        div {
+            flex: 33%;
+            margin: 0.75rem;
+        }
+    }
+}

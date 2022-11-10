@@ -1,0 +1,81 @@
+@import '../../Styles/mixin.scss';
+@import '../../Styles/variables.scss';
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    position: relative;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0.5rem 1rem;
+
+    form {
+        input {
+            height: 40px;
+            width: 40vw;
+            padding: 0 30px;
+            font-weight: 400;
+            font-size: 1.125rem;
+            font-family: 'Josefin Sans',
+                sans-serif;
+        }
+
+        button {
+            height: 40px;
+            width: 50px;
+            background-color: $orangeColor;
+            border: 1px solid $orangeColor1;
+            border-radius: 0;
+        }
+
+        button:hover {
+            background-color: $orangeColor1;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+
+        li {
+            padding: 1rem;
+
+            a {
+                color: $secondary;
+                font-size: 1.25rem;
+                text-decoration: none;
+                display: flex;
+            }
+
+            .menu {
+
+                display: block;
+                position: absolute;
+                top: 60px;
+
+                a {
+                    text-decoration: none;
+                    color: $blackColor;
+                    background-color: $secondary;
+                    height: auto;
+                    padding: 10px;
+                    padding-left: 20px;
+                    width: 150px;
+                }
+
+                a:hover {
+                    background-color: $secondary1;
+                }
+            }
+
+            .hidden {
+                display: none;
+            }
+        }
+
+    }
+}
